@@ -45,12 +45,12 @@ EXIT /B 0
 CALL :INIT
 if exist "%BASE%SharpHound.exe" (
 	echo %date% %time% INFO: Starting Sharphound
-	%BASE%SharpHound.exe --CollectionMethods All --prettyprint true
+	%BASE%SharpHound.exe -s --CollectionMethods All --prettyprint true
 	explorer .
 ) else (
 	echo %date% %time% INFO: Sharphound Missing Downloading
 	powershell "(New-Object Net.WebClient).DownloadFile('https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/DebugBuilds/SharpHound.exe', '.\SharpHound.exe')" > %temp%/null
-	%BASE%SharpHound.exe --CollectionMethods All --prettyprint true
+	%BASE%SharpHound.exe -s --CollectionMethods All --prettyprint true
 )
 EXIT /B 0
 
