@@ -10,3 +10,8 @@ Bloodhound Portable for Windows
 
 
 ![image](https://user-images.githubusercontent.com/4307863/153485618-6bf743af-b5a9-4f88-b0ab-0ad24fed4556.png)
+
+Credit: 
+https://bloodhound.readthedocs.io/en/latest/_images/SharpHoundCheatSheet.png
+
+![image](https://user-images.githubusercontent.com/4307863/156181140-951cc25d-d6f7-4385-8520-9980869a7ee2.png)
