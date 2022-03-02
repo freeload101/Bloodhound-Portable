@@ -1,8 +1,11 @@
 # Bloodhound-Portable
-Bloodhound Portable for Windows
+Bloodhound Portable for Windows (You can run this without local admin. No Administrator required ! )
 
 1) Download the .bat file
-2) Right-Click (Run as Administrator)
+2) start new command prompt
+3) run as target domain user OR runas /netonly /user:"US.COMPANY.DOMAIN.COM\UESERNAME@COMPANY.COM" cmd  for or try /user:"DOMAIN\USERNAME" to run SharpHound.exe Reference: https://bloodhound.readthedocs.io/en/latest/data-collection/sharphound.html?highlight=netonly#running-sharphound-from-a-non-domain-joined-system 
+
+
 
 ** You may need to whitelist or disable Bloodhound/Sharphound in your Endpoint Security Software ( Or just obfucate it if your lucky... Resource Hacker or echo '' >> Sharphound.exe etc  ...  ) **
 
