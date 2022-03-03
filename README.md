@@ -1,9 +1,12 @@
 # Bloodhound-Portable
-Bloodhound Portable for Windows (You can run this without local admin. No Administrator required ! )
+Six Degrees of Domain Admin
+
+[BloodHound](https://github.com/BloodHoundAD/BloodHound) Portable for Windows (You can run this without local admin. No Administrator required)
+
 
 1) Download the .bat file
-2) start new command prompt
-3) run as target domain user OR runas /netonly /user:"US.COMPANY.DOMAIN.COM\UESERNAME@COMPANY.COM" cmd  for or try /user:"DOMAIN\USERNAME" to run SharpHound.exe Reference: https://bloodhound.readthedocs.io/en/latest/data-collection/sharphound.html?highlight=netonly#running-sharphound-from-a-non-domain-joined-system 
+2) Run as a normal domain user
+3) Alternatively you can use [Runas.exe](https://bloodhound.readthedocs.io/en/latest/data-collection/sharphound.html?highlight=netonly#running-sharphound-from-a-non-domain-joined-system) inside of a VM under domain user context with ```runas /netonly /user:"US.COMPANY.DOMAIN.COM\UESERNAME@COMPANY.COM" cmd``` or try ```/user:"DOMAIN\USERNAME"``` to run SharpHound.exe 
 
 
 
