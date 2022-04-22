@@ -43,7 +43,7 @@ EXIT /B 0
 :SHARPHOUND
 CALL :INIT
 echo Example runas usage
-echo 'runas /user:"USERNAME\NR.AD.COMPANY.CO" /netonly cmd'
+echo runas /user:"nr.ad.COMPANY.com\USERNAME" /netonly cmd
 if exist "%BASE%SharpHound.exe" (
 	echo %date% %time% INFO: Starting Sharphound
 	%BASE%SharpHound.exe -s --CollectionMethods All --prettyprint true
