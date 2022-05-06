@@ -8,7 +8,7 @@ Six Degrees of Domain Admin
 2) Run as a normal domain user
 3) Alternatively you can use [Runas.exe](https://bloodhound.readthedocs.io/en/latest/data-collection/sharphound.html?highlight=netonly#running-sharphound-from-a-non-domain-joined-system) inside of a VM under domain user context with ```runas /netonly /user:"US.COMPANY.DOMAIN.COM\UESERNAME@COMPANY.COM" cmd``` or try ```/user:"DOMAIN\USERNAME"``` to run SharpHound.exe 
 
-
+Parse Sharphound Output [Pretty_Bloodhound.py](https://github.com/freeload101/Python/blob/master/Pretty_Bloodhound.py)
 
 ** You may need to whitelist or disable Bloodhound/Sharphound in your Endpoint Security Software ( Or just obfucate it if your lucky... Resource Hacker or echo '' >> Sharphound.exe etc  ...  ) **
 
