@@ -3,6 +3,7 @@ Six Degrees of Domain Admin
 
 [BloodHound](https://github.com/BloodHoundAD/BloodHound) Portable for Windows (You can run this without local admin. No Administrator required)
 
+[ Presentation ](https://docs.google.com/presentation/d/1aN7CgzeFko6hmkjJMQuQTXg6Ev-v-zsRUhXDd9z7R5Y)
 
 1) Download the .bat file
 2) Run as a normal domain user
