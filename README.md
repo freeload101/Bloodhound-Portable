@@ -11,17 +11,15 @@ https://hausec.com/2019/09/09/bloodhound-cypher-cheatsheet/
 
 https://github.com/BloodHoundAD/BloodHound/wiki/Cypher-Query-Gallery
 
-
-
 [BloodHound](https://github.com/BloodHoundAD/BloodHound) Portable for Windows (You can run this without local admin. No Administrator required)
 
-## [ Presentation ](https://docs.google.com/presentation/d/1aN7CgzeFko6hmkjJMQuQTXg6Ev-v-zsRUhXDd9z7R5Y)
+[ Presentation ](https://docs.google.com/presentation/d/1aN7CgzeFko6hmkjJMQuQTXg6Ev-v-zsRUhXDd9z7R5Y)
 
 1) Download the .bat file
 2) Run as a normal domain user
 3) Alternatively you can use [Runas.exe](https://bloodhound.readthedocs.io/en/latest/data-collection/sharphound.html?highlight=netonly#running-sharphound-from-a-non-domain-joined-system) inside of a VM under domain user context with ```runas /netonly /user:"US.COMPANY.DOMAIN.COM\UESERNAME@COMPANY.COM" cmd``` or try ```/user:"DOMAIN\USERNAME"``` to run SharpHound.exe 
 
-Parse Sharphound Output [Pretty_Bloodhound.py](https://github.com/freeload101/Python/blob/master/Pretty_Bloodhound.py)
+Parse Sharphound Output [Pretty_Bloodhound.py](https://github.com/freeload101/Python/blob/master/Pretty_Bloodhound.py) ( not needed they fixed it )
 
 ** You may need to whitelist or disable Bloodhound/Sharphound in your Endpoint Security Software ( Or just obfucate it if your lucky... Resource Hacker or echo '' >> Sharphound.exe etc  ...  ) **
 
