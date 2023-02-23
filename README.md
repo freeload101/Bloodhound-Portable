@@ -11,6 +11,9 @@ https://hausec.com/2019/09/09/bloodhound-cypher-cheatsheet/
 
 https://github.com/BloodHoundAD/BloodHound/wiki/Cypher-Query-Gallery
 
+## Slack
+https://bloodhoundhq.slack.com ( not sure how to get invite )
+
 [BloodHound](https://github.com/BloodHoundAD/BloodHound) Portable for Windows (You can run this without local admin. No Administrator required)
 
 [ Presentation ](https://docs.google.com/presentation/d/1aN7CgzeFko6hmkjJMQuQTXg6Ev-v-zsRUhXDd9z7R5Y)
