@@ -3,7 +3,7 @@ Six Degrees of Domain Admin
 
 ![image](https://user-images.githubusercontent.com/4307863/221010307-94951724-ea8b-497f-a7ed-754510838e67.png)
 
-## Useful cypher queries
+## Useful cypher queries and links
 
 https://gist.github.com/jeffmcjunkin/7b4a67bb7dd0cfbfbd83768f3aa6eb12
 
