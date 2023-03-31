@@ -6,6 +6,8 @@ Six Degrees of Domain Admin
 
 ## Useful cypher queries and links
 
+https://www.google.com/search?q=%22shortestPath%22+%22bloodhound%22+site:github.com
+
 https://gist.github.com/jeffmcjunkin/7b4a67bb7dd0cfbfbd83768f3aa6eb12
 
 https://hausec.com/2019/09/09/bloodhound-cypher-cheatsheet/
