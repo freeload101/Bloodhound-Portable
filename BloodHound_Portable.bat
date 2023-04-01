@@ -1,4 +1,31 @@
 @echo off
+
+
+echo '!!!!!!So updated JAMBOREE to run Bloodhound don't feel like maintaining bloodhound-portable .bat file :'
+
+echo 'https://github.com/freeload101/Java-Android-Magisk-Burp-Objection-Root-Emulator-Easy'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo '-----------------------------------------------------------------------------------------'
+echo '-----------------------------------------------------------------------------------------'
+
+
 Setlocal EnableDelayedExpansion EnableExtensions
 
 echo '-----------------------------------------------------------------------------------------'
